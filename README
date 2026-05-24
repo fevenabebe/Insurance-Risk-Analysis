@@ -1,0 +1,20 @@
+# Insurance Risk Analytics
+
+## Project Overview
+
+This project analyzes historical insurance claims data to identify risk patterns and support risk-based pricing strategies.
+
+## Objectives
+
+- Exploratory Data Analysis
+- Risk Segmentation
+- Hypothesis Testing
+- Predictive Modeling
+
+## Tools
+
+- Python
+- Pandas
+- Scikit-learn
+- DVC
+- GitHub Actions
