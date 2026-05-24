@@ -2,10 +2,9 @@ import numpy as np
 
 
 def calculate_loss_ratio(df):
-
-    df['LossRatio'] = np.where(
-        df['TotalPremium'] > 0,
-        df['TotalClaims'] / df['TotalPremium'],
+    df["LossRatio"] = np.where(
+        df["TotalPremium"] > 0,
+        df["TotalClaims"] / df["TotalPremium"],
         0
     )
 
@@ -13,9 +12,6 @@ def calculate_loss_ratio(df):
 
 
 def calculate_margin(df):
-
-    df['Margin'] = (
-        df['TotalPremium'] - df['TotalClaims']
-    )
+    df["Margin"] = df["TotalPremium"] - df["TotalClaims"]
 
     return df
